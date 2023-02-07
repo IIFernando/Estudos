@@ -22,7 +22,6 @@ function formataData(data) {
 
 const data = new Date();
 const dataBrasil = formataData(data);
-console.log(dataBrasil)
 
 function zeroAEsquerda(num) {
     return num >= 10 ? num : `0${num}`;
